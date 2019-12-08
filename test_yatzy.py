@@ -14,7 +14,7 @@ def test_yatzy_scores_50():
   
 
 def test_1s():
-        assert Yatzy.ones(1,2,3,4,5) == 1
+        assert 1 == Yatzy.ones(1,2,3,4,5) 
         assert 2 == Yatzy.ones(1,2,1,4,5)
         assert 0 == Yatzy.ones(6,2,2,4,5)
         assert 4 == Yatzy.ones(1,2,1,1,1)
@@ -23,6 +23,7 @@ def test_1s():
 def test_2s():
         assert 4 == Yatzy.twos(1,2,3,2,6)
         assert 10 == Yatzy.twos(2,2,2,2,2)
+        assert 0 == Yatzy.twos(3,4,5,1,5)
   
 
 def test_threes():

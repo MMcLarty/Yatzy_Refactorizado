@@ -9,56 +9,24 @@ class Yatzy:
 
     @staticmethod
     def yatzy(*dados):
-        if dados.counts(dados[0]) = 5:
+        if dados.count(dados[0]) == 5:
             return 50
         return 0
     
     @staticmethod
-    def ones( d1,  d2,  d3,  d4,  d5):
-        sum = 0
-        if (d1 == 1):
-            sum += 1
-        if (d2 == 1):
-            sum += 1
-        if (d3 == 1):
-            sum += 1
-        if (d4 == 1):
-            sum += 1
-        if (d5 == 1): 
-            sum += 1
-
-        return sum
-    
+    def ones(*dados):
+        uno = 1
+        return dados.count(uno) * uno
 
     @staticmethod
-    def twos( d1,  d2,  d3,  d4,  d5):
-        sum = 0
-        if (d1 == 2):
-             sum += 2
-        if (d2 == 2):
-             sum += 2
-        if (d3 == 2):
-             sum += 2
-        if (d4 == 2):
-             sum += 2
-        if (d5 == 2):
-             sum += 2
-        return sum
+    def twos(*dados):
+        dos = 2 
+        return dados.count(dos) * dos
     
     @staticmethod
-    def threes( d1,  d2,  d3,  d4,  d5):
-        s = 0
-        if (d1 == 3):
-             s += 3
-        if (d2 == 3):
-             s += 3
-        if (d3 == 3):
-             s += 3
-        if (d4 == 3):
-             s += 3
-        if (d5 == 3):
-             s += 3
-        return s
+    def threes(*dados):
+        tres = 3
+        return dados.count(tres) * tres
     
 
     def __init__(self, d1, d2, d3, d4, _5):
