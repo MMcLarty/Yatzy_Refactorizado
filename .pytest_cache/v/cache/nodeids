@@ -1,0 +1,17 @@
+[
+  "test_yatzy.py::test_chance",
+  "test_yatzy.py::test_yatzy_scores_50",
+  "test_yatzy.py::test_UNO",
+  "test_yatzy.py::test_DOS",
+  "test_yatzy.py::test_TRES",
+  "test_yatzy.py::test_fours_test",
+  "test_yatzy.py::test_fives",
+  "test_yatzy.py::test_sixes_test",
+  "test_yatzy.py::test_one_pair",
+  "test_yatzy.py::test_two_Pair",
+  "test_yatzy.py::test_three_of_a_kind",
+  "test_yatzy.py::test_four_of_a_knd",
+  "test_yatzy.py::test_smallStraight",
+  "test_yatzy.py::test_largeStraight",
+  "test_yatzy.py::test_fullHouse"
+]

@@ -3,7 +3,7 @@ from yatzy import Yatzy
 # These unit tests can be run using the py.test framework
 # available from http://pytest.org/
 
-def test_chance_scores_sum_of_all_dice():
+def test_chance():
         assert 15 == Yatzy.chance(2,3,4,5,1)
         assert 16 == Yatzy.chance(3,3,4,5,1)
   
@@ -13,20 +13,20 @@ def test_yatzy_scores_50():
         assert 0 == Yatzy.yatzy([6,6,6,6,3])
   
 
-def test_1s():
+def test_UNO():
         assert 1 == Yatzy.ones(1,2,3,4,5) 
         assert 2 == Yatzy.ones(1,2,1,4,5)
         assert 0 == Yatzy.ones(6,2,2,4,5)
         assert 4 == Yatzy.ones(1,2,1,1,1)
   
 
-def test_2s():
+def test_DOS():
         assert 4 == Yatzy.twos(1,2,3,2,6)
         assert 10 == Yatzy.twos(2,2,2,2,2)
         assert 0 == Yatzy.twos(3,4,5,1,5)
   
 
-def test_threes():
+def test_TRES():
         assert 6 == Yatzy.threes(1,2,3,2,3)
         assert 12 == Yatzy.threes(2,3,3,3,3)
   

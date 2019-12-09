@@ -5,13 +5,13 @@ class Yatzy:
         total = 0
         for num in dados:
             total += num
-            return total
+        return total
 
     @staticmethod
     def yatzy(*dados):
-        if dados.count(dados[0]) == 5:
-            return 50
-        return 0
+        if dados.count(dados[0]) != 5:
+            return 0 
+        return 50
     
     @staticmethod
     def ones(*dados):
