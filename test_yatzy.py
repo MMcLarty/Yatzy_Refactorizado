@@ -9,8 +9,8 @@ def test_chance():
   
 
 def test_yatzy_scores_50():
-        assert 50 == Yatzy.yatzy([6,6,6,6,6])
-        assert 0 == Yatzy.yatzy([6,6,6,6,3])
+        assert 50 == Yatzy.yatzy(6,6,6,6,6)
+        assert 0 == Yatzy.yatzy(6,6,6,6,3)
   
 
 def test_UNO():
