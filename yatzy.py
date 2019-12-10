@@ -63,11 +63,11 @@ class Yatzy:
             if dados.count(numero) >= 2:
                 pares += 1
                 total += par * numero
-                numero += 1
-            if pares == 2:
-                return total
-            else:
-                return 0
+            numero += 1
+        if pares == 2:
+            return total
+        else:
+            return 0
  
     @staticmethod
     def three_of_a_kind(*dados):
